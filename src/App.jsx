@@ -1,60 +1,67 @@
-
+import forester from './assets/images/forester.jpeg'
+import outlander from './assets/images/outlander.jpeg'
+import cx5 from './assets/images/cx5.jpeg'
+import probox from './assets/images/probox.jpeg'
+import prado from './assets/images/prado.jpeg'
+import demio from './assets/images/demio.jpeg'
+import tesla from './assets/images/tesla.jpeg'
+import honda from './assets/images/honda.jpeg'
 import './App.css'
 import Car from './components/Car.jsx'
 
 function App() {
   const cars=[
     {
-    image: './src/assets/images/forester.jpeg',
+    image:forester,
     make:'subaru',
     name:"forester",
     colour:"blue",
     year:"2022",
     },
     {
-      image: './src/assets/images/outlander.jpeg',
+      image:outlander,
       make:'mitsubishi',
       name:"outlander",
       colour:"white",
       year:"2010",
       },
       {
-        image: './src/assets/images/cx5.jpeg',
+        image:cx5,
         make:'mazda',
         name:"cx5",
         colour:"black",
         year:"2002",
         },
         {
-          image: './src/assets/images/probox.jpeg',
+          image: probox,
           make:'toyota',
           name:"probox",
           colour:"grey",
           year:"2020",
           },
           {
-            image: './src/assets/images/prado.jpeg',
+            image:prado ,
             make:'toyota',
             name:"prado",
             colour:"green",
             year:"2012",
             },
             {
-              image: './src/assets/images/demio.jpeg',
+              image:demio,
               make:'mazda',
               name:"demio",
               colour:"orange",
               year:"2011",
               },
               {
-                image: './src/assets/images/tesla.jpeg',
+                image:tesla,
                 make:'tesla',
                 name:"new",
                 colour:"red",
                 year:"2011",
                 },
                 {
-                  image: './src/assets/images/honda.jpeg',
+                  image: honda,
                   make:'honda',
                   name:"fit",
                   colour:"blue",
